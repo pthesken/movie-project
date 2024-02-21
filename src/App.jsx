@@ -1,16 +1,14 @@
 import { useState } from "react";
 import { movies } from "./data.js";
 import "./App.css";
-import Movie from "./Movie.jsx";
+import MovieList from "./components/MovieList.jsx";
 
 function App() {
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   return (
     <div className="movie-container">
-      {movies.map((movie, index) => {
-        return <Movie movie={movie} onClick={setSelectedMovie} key={index} />;
-      })}
+      <MovieList movies={movies} setSelectedMovie={setSelectedMovie} />
 
       {selectedMovie && (
         <div className="selected-movie">
