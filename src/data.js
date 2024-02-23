@@ -16,7 +16,7 @@ export const movies = [
   {
     title: "The Lion King",
     image:
-      "https://www.movieposters.com/cdn/shop/products/2b3357dcf240fd2789eff7bd48https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpgf01faa_3c15344b-84ed-44fe-9f79-572e8be75047_500x.jpg?v=1573592548",
+      "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
     description:
       "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
   },
